@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Test-Path \"c:\\\\Users\\\\walli\\\\OneDrive\\\\WEXIA\\\\CLIENTES 2026\\\\EXPOGURUPI 2026\\\\agrovisao\\\\node_modules\")",
+      "Bash(Test-Path \"c:\\\\Users\\\\walli\\\\OneDrive\\\\WEXIA\\\\CLIENTES 2026\\\\EXPOGURUPI 2026\\\\agrovisao\\\\.env.local\")"
+    ]
+  }
+}

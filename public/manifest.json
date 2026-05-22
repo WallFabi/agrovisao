@@ -1,0 +1,38 @@
+{
+  "name": "AgroVisão",
+  "short_name": "AgroVisão",
+  "description": "Assistente agronômico inteligente para produtores rurais brasileiros",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#14532d",
+  "theme_color": "#16a34a",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "lang": "pt-BR",
+  "shortcuts": [
+    {
+      "name": "Chat com Agente",
+      "url": "/chat",
+      "description": "Tirar dúvidas agronômicas"
+    },
+    {
+      "name": "Buscar Preços",
+      "url": "/precos",
+      "description": "Cotação de insumos"
+    }
+  ]
+}
