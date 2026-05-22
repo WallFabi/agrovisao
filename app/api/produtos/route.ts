@@ -1,5 +1,3 @@
-export const runtime = 'edge'
-
 // Categorias agrícolas no Mercado Livre Brasil
 const AGRO_CATEGORIES = {
   'defensivos': 'MLB1459',       // Agro
@@ -64,7 +62,6 @@ export async function GET(request: Request) {
         'Accept': 'application/json',
         'User-Agent': 'AgroVisao/1.0',
       },
-      next: { revalidate: 7200 }, // Cache 2 horas
     })
 
     if (!response.ok) {
