@@ -2,6 +2,10 @@
 
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
+import dynamic from 'next/dynamic'
+
+const WeatherWidget = dynamic(() => import('@/components/WeatherWidget'), { ssr: false })
+const NewsCards = dynamic(() => import('@/components/NewsCards'), { ssr: false })
 
 const tips = [
   "Soja: monitore ferrugem asiática a partir de R1. Aplique fungicida preventivo.",
@@ -68,14 +72,20 @@ export default function HomePage() {
           </p>
         </div>
 
+        {/* Widget clima */}
+        <WeatherWidget />
+
         {/* Tip rotativa */}
-        <div className="mt-5 bg-white/10 rounded-xl p-3 border border-white/20">
+        <div className="mt-3 bg-white/10 rounded-xl p-3 border border-white/20">
           <p className="text-xs text-agro-200 font-medium mb-1">💡 Dica técnica</p>
           <p className="text-sm text-white transition-all duration-500">
             {tips[tip]}
           </p>
         </div>
       </header>
+
+      {/* Notícias */}
+      <NewsCards />
 
       {/* Main modules */}
       <main className="flex-1 px-4 py-6 space-y-4">
