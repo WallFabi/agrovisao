@@ -16,6 +16,7 @@ interface Produto {
   vendedor: string
   freteGratis: boolean
   qtdVendida: number
+  totalVendedores?: number
 }
 
 const BUSCAS_RAPIDAS = [
@@ -242,7 +243,11 @@ export default function PrecosPage() {
                       )}
                     </div>
                     <p className="text-xs text-gray-400 mt-0.5 truncate">
-                      Vendedor: {produto.vendedor}
+                      {produto.totalVendedores && produto.totalVendedores > 1
+                        ? `${produto.totalVendedores} vendedores`
+                        : produto.vendedor && !produto.vendedor.match(/^\d+$/)
+                          ? produto.vendedor
+                          : '1 vendedor'}
                     </p>
                   </div>
 
