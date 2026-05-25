@@ -78,6 +78,10 @@ export async function POST(request: Request) {
   try {
     const body = await request.json()
 
+    console.log('[waha-in] event=%s type=%s from=%s fromMe=%s body=%s',
+      body.event, body.payload?.type, body.payload?.from, body.payload?.fromMe,
+      String(body.payload?.body ?? '').substring(0, 60))
+
     // Only process incoming text messages
     if (body.event !== 'message') return Response.json({ ok: true })
 
