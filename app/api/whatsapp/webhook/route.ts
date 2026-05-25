@@ -1,4 +1,5 @@
 import Anthropic from '@anthropic-ai/sdk'
+import { supabase } from '@/lib/supabase'
 
 const WAHA_API_URL = process.env.WAHA_API_URL ?? 'https://waha.wexia.com.br'
 const WAHA_API_KEY = process.env.WAHA_API_KEY ?? ''
@@ -89,6 +90,13 @@ export async function POST(request: Request) {
 
     const chatId: string = payload.from
     const userText: string = payload.body.trim()
+
+    // Upsert contact (fire-and-forget, non-blocking)
+    supabase.rpc('upsert_contact', {
+      p_phone: chatId,
+      p_name: payload.pushName ?? null,
+      p_message: userText.substring(0, 300),
+    }).catch(() => {})
 
     // Build / update conversation history
     const history = conversations.get(chatId) ?? []
