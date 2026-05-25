@@ -1,6 +1,0 @@
-[     818ms] [WARNING] Failed to decode downloaded font: http://72.61.131.74:3000/assets/files/inter-latin-wght-normal.woff2 @ http://72.61.131.74:3000/:0
-[     818ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008821359 @ http://72.61.131.74:3000/:0
-[     831ms] [WARNING] Failed to decode downloaded font: http://72.61.131.74:3000/assets/files/inter-latin-wght-normal.woff2 @ http://72.61.131.74:3000/:0
-[     831ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008821359 @ http://72.61.131.74:3000/:0
-[    1188ms] [WARNING] Failed to decode downloaded font: http://72.61.131.74:3000/assets/files/inter-latin-wght-normal.woff2 @ http://72.61.131.74:3000/assets/index-DiKZtAnj.js:353
-[    1188ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008821359 @ http://72.61.131.74:3000/assets/index-DiKZtAnj.js:353

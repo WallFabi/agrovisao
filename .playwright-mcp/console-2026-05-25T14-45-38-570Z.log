@@ -1,4 +1,0 @@
-[     135ms] [WARNING] Failed to decode downloaded font: http://72.61.131.74:3000/assets/files/inter-latin-wght-normal.woff2 @ http://72.61.131.74:3000/projects/agrovisao/services/waha:0
-[     135ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008821359 @ http://72.61.131.74:3000/projects/agrovisao/services/waha:0
-[     310ms] [WARNING] Failed to decode downloaded font: http://72.61.131.74:3000/assets/files/inter-latin-wght-normal.woff2 @ http://72.61.131.74:3000/projects/agrovisao/services/waha:0
-[     310ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008821359 @ http://72.61.131.74:3000/projects/agrovisao/services/waha:0

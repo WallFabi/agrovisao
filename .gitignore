@@ -20,4 +20,8 @@ npm-debug.log*
 *.pem
 .vercel
 
-.vercel
+# playwright / screenshots temporários
+.playwright-mcp/
+qr-whatsapp.png
+*.png
+tsconfig.tsbuildinfo
