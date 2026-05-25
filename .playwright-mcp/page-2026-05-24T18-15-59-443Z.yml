@@ -1,0 +1,146 @@
+- generic:
+  - generic:
+    - generic:
+      - banner:
+        - link:
+          - /url: /manager
+          - img
+          - generic: Evolution Manager
+        - generic:
+          - generic:
+            - img
+          - button:
+            - img
+            - generic: Toggle theme
+          - button:
+            - img
+            - generic: Toggle theme
+          - button:
+            - img
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - button:
+                      - link:
+                        - /url: /manager/instance/093df25e-350b-4d05-9578-941ceaa970af/dashboard
+                      - img
+                      - generic: Dashboard
+                  - listitem:
+                    - generic:
+                      - button:
+                        - img
+                        - generic: Configurations
+                        - img
+                  - listitem:
+                    - generic:
+                      - button:
+                        - img
+                        - generic: Events
+                        - img
+                  - listitem:
+                    - generic:
+                      - button:
+                        - img
+                        - generic: Integrations
+                        - img
+                  - listitem:
+                    - button:
+                      - link:
+                        - /url: https://doc.evolution-api.com
+                      - img
+                      - generic: Documentation
+                  - listitem:
+                    - button:
+                      - link:
+                        - /url: https://evolution-api.com/postman
+                      - img
+                      - generic: Postman
+                  - listitem:
+                    - button:
+                      - link:
+                        - /url: https://evolution-api.com/discord
+                      - img
+                      - generic: Discord
+                  - listitem:
+                    - button:
+                      - link:
+                        - /url: https://evolution-api.com/suporte-pro
+                      - img
+                      - generic: Support Premium
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - main:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: agrovisao
+                            - generic: Disconnected
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "************-****-****-************"
+                              - button:
+                                - img
+                              - button:
+                                - img
+                          - alert:
+                            - heading [level=5]: To connect, scan the QR code with your WhatsApp Web
+                            - button [expanded]: Get QR Code
+                        - generic:
+                          - button:
+                            - img
+                          - button: RESTART
+                          - button [disabled]: DISCONNECT
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=3]:
+                            - img
+                            - text: Contacts
+                        - generic: "0"
+                      - generic:
+                        - generic:
+                          - heading [level=3]:
+                            - img
+                            - text: Chats
+                        - generic: "0"
+                      - generic:
+                        - generic:
+                          - heading [level=3]:
+                            - img
+                            - text: Messages
+                        - generic: "0"
+                - contentinfo:
+                  - generic:
+                    - generic:
+                      - text: "Client name:"
+                      - strong: evolution_api
+                    - generic:
+                      - text: "Version:"
+                      - strong: 2.2.3
+                  - generic:
+                    - link:
+                      - /url: https://evolution-api.com/discord
+                      - text: Discord
+                    - link:
+                      - /url: https://evolution-api.com/postman
+                      - text: Postman
+                    - link:
+                      - /url: https://github.com/EvolutionAPI/evolution-api
+                      - text: GitHub
+                    - link:
+                      - /url: https://doc.evolution-api.com
+                      - text: Docs
+  - dialog [ref=e176]:
+    - generic [ref=e177]: Scan the QR code with your WhatsApp Web
+    - button "Close" [active] [ref=e178] [cursor=pointer]:
+      - img [ref=e179]
+      - generic [ref=e182]: Close

@@ -1,0 +1,9 @@
+[    8998ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://waha.wexia.com.br/:0
+[    9066ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://waha.wexia.com.br/:0
+[    9138ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://waha.wexia.com.br/:0
+[    9205ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://waha.wexia.com.br/:0
+[   25071ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://waha.wexia.com.br/:0
+[   25142ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://waha.wexia.com.br/:0
+[   25225ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://waha.wexia.com.br/:0
+[   57642ms] [ERROR] Access to fetch at 'http://72.61.131.74:3000/api/trpc/services.app.updateEnv' from origin 'null' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ about:blank:0
+[   57643ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://72.61.131.74:3000/api/trpc/services.app.updateEnv:0

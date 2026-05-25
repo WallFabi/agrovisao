@@ -1,0 +1,45 @@
+[    1817ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-uri'. @ https://developers.mercadolivre.com.br/devcenter/accountLink:0
+[    1817ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-to'. @ https://developers.mercadolivre.com.br/devcenter/accountLink:0
+[    3258ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://developers.mercadolivre.com.br/devcenter/favicon.ico:0
+[   14317ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-uri'. @ https://developers.mercadolivre.com.br/devcenter:0
+[   14317ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-to'. @ https://developers.mercadolivre.com.br/devcenter:0
+[   28189ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-uri'. @ https://developers.mercadolivre.com.br/devcenter/create-app:0
+[   28189ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-to'. @ https://developers.mercadolivre.com.br/devcenter/create-app:0
+[   29292ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-uri'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:227
+[   29292ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-to'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:227
+[   30036ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-uri'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:188
+[   30036ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-to'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:188
+[   30037ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-uri'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:188
+[   30037ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-to'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:188
+[   30547ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-uri'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:220
+[   30547ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-to'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:220
+[   30553ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-uri'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:469
+[   30553ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-to'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:469
+[   30554ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-uri'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:469
+[   30554ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-to'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:469
+[  272936ms] [WARNING] Blocked aria-hidden on an element because its descendant retained focus. The focus must not be hidden from assistive technology users. Avoid using aria-hidden on a focused element or its ancestor. Consider using the inert attribute instead, which will also prevent focus. For more details, see the aria-hidden section of the WAI-ARIA specification at https://w3c.github.io/aria/#aria-hidden.
+Element with focus: <td.rc-imageselect-tile#0>
+Ancestor with aria-hidden: <div.rc-imageselect-target#rc-imageselect-target> @ https://www.recaptcha.net/recaptcha/api2/bframe?hl=pt-BR&v=Br0hYqpfWeFzYCAXLD4UuCIV&k=6LfBMkcjAAAAAGHbb13Ne712FNrWJf_PXhHJbk6c&bft=0dAFcWeA5RKmkRRwyyKebpRVdXUgKyez0uaaM8hHdcH53wTFtvOgeF6lCHazJs8Stnv1tuprmt09jnfbntTpJOawzsRxOgJtCNBw:0
+[  338027ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-uri'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:227
+[  338027ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-to'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:227
+[  338030ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-uri'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:188
+[  338030ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-to'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:188
+[  338032ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-uri'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:188
+[  338032ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-to'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:188
+[  272936ms] [WARNING] Blocked aria-hidden on an element because its descendant retained focus. The focus must not be hidden from assistive technology users. Avoid using aria-hidden on a focused element or its ancestor. Consider using the inert attribute instead, which will also prevent focus. For more details, see the aria-hidden section of the WAI-ARIA specification at https://w3c.github.io/aria/#aria-hidden.
+Element with focus: <td.rc-imageselect-tile#0>
+Ancestor with aria-hidden: <div.rc-imageselect-target#rc-imageselect-target> @ https://www.recaptcha.net/recaptcha/api2/bframe?hl=pt-BR&v=Br0hYqpfWeFzYCAXLD4UuCIV&k=6LfBMkcjAAAAAGHbb13Ne712FNrWJf_PXhHJbk6c&bft=0dAFcWeA5RKmkRRwyyKebpRVdXUgKyez0uaaM8hHdcH53wTFtvOgeF6lCHazJs8Stnv1tuprmt09jnfbntTpJOawzsRxOgJtCNBw:0
+[  338772ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-uri'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:220
+[  338772ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-to'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:220
+[  338778ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-uri'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:469
+[  338778ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-to'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:469
+[  338779ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-uri'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:469
+[  338779ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-to'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:469
+[  272936ms] [WARNING] Blocked aria-hidden on an element because its descendant retained focus. The focus must not be hidden from assistive technology users. Avoid using aria-hidden on a focused element or its ancestor. Consider using the inert attribute instead, which will also prevent focus. For more details, see the aria-hidden section of the WAI-ARIA specification at https://w3c.github.io/aria/#aria-hidden.
+Element with focus: <td.rc-imageselect-tile#0>
+Ancestor with aria-hidden: <div.rc-imageselect-target#rc-imageselect-target> @ https://www.recaptcha.net/recaptcha/api2/bframe?hl=pt-BR&v=Br0hYqpfWeFzYCAXLD4UuCIV&k=6LfBMkcjAAAAAGHbb13Ne712FNrWJf_PXhHJbk6c&bft=0dAFcWeA5RKmkRRwyyKebpRVdXUgKyez0uaaM8hHdcH53wTFtvOgeF6lCHazJs8Stnv1tuprmt09jnfbntTpJOawzsRxOgJtCNBw:0
+[  476538ms] [WARNING] Blocked aria-hidden on an element because its descendant retained focus. The focus must not be hidden from assistive technology users. Avoid using aria-hidden on a focused element or its ancestor. Consider using the inert attribute instead, which will also prevent focus. For more details, see the aria-hidden section of the WAI-ARIA specification at https://w3c.github.io/aria/#aria-hidden.
+Element with focus: <td.rc-imageselect-tile#0>
+Ancestor with aria-hidden: <div.rc-imageselect-target#rc-imageselect-target> @ https://www.recaptcha.net/recaptcha/api2/bframe?hl=pt-BR&v=Br0hYqpfWeFzYCAXLD4UuCIV&k=6LfBMkcjAAAAAGHbb13Ne712FNrWJf_PXhHJbk6c&bft=0dAFcWeA6BI4u8gY03plzrq7fSvgsgQenEZSbD5eHXQrGw5E-drB-76St3W6VHRVFuECztmrfBT0UEppxjC-3EWEkI-FrFE_mlJw:0
+[  607162ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-uri'. @ https://developers.mercadolivre.com.br/devcenter:0
+[  607162ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-to'. @ https://developers.mercadolivre.com.br/devcenter:0

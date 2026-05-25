@@ -1,0 +1,221 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - link [ref=e250] [cursor=pointer]:
+            - /url: /
+            - img [ref=e251]
+          - generic [ref=e10]:
+            - generic [ref=e11]: Easypanel
+            - generic [ref=e12]:
+              - generic [ref=e13]: v2.30.1
+              - button [ref=e14] [cursor=pointer]:
+                - img [ref=e15]
+              - combobox [ref=e20]
+        - generic [ref=e21]:
+          - link [ref=e252] [cursor=pointer]:
+            - /url: /
+            - img [ref=e23]
+            - generic [ref=e26]: Painel
+          - link [ref=e253] [cursor=pointer]:
+            - /url: /actions
+            - img [ref=e28]
+            - generic [ref=e30]: Ações
+          - link [ref=e254] [cursor=pointer]:
+            - /url: /monitor
+            - img [ref=e32]
+            - generic [ref=e34]: Monitorar
+          - link [ref=e255] [cursor=pointer]:
+            - /url: /domains
+            - img [ref=e36]
+            - generic [ref=e39]: Domínios
+          - link [ref=e256] [cursor=pointer]:
+            - /url: /settings
+            - img [ref=e41]
+            - generic [ref=e44]: Configurações
+        - generic [ref=e46]:
+          - link [ref=e257] [cursor=pointer]:
+            - /url: https://easypanel.io/docs
+            - img [ref=e48]
+            - generic [ref=e50]: Documentação
+            - img [ref=e52]
+          - link [ref=e258] [cursor=pointer]:
+            - /url: https://discord.gg/9bcDSXcZQ7
+            - img [ref=e259]
+            - generic [ref=e59]: Discord
+            - img [ref=e61]
+          - link [ref=e260] [cursor=pointer]:
+            - /url: https://my.easypanel.io/feedback
+            - img [ref=e66]
+            - generic [ref=e68]: Feedback
+            - img [ref=e70]
+          - link [ref=e261] [cursor=pointer]:
+            - /url: https://my.easypanel.io/changelog
+            - img [ref=e75]
+            - generic [ref=e78]: Histórico de Alterações
+            - img [ref=e80]
+        - link [ref=e262] [cursor=pointer]:
+          - /url: /buy-license
+          - img [ref=e86]
+          - generic [ref=e90]: Comprar Licença
+        - button [ref=e263] [cursor=pointer]:
+          - img [ref=e92]
+          - generic [ref=e95]: Busca Rápida
+          - generic [ref=e97]: ⌘ K
+        - generic [ref=e98]:
+          - heading [level=2] [ref=e264]: Command Palette
+          - paragraph [ref=e100]: Search for a command to run...
+        - button [ref=e265] [cursor=pointer]:
+          - img [ref=e102]
+          - generic [ref=e106]: 72.61.131.74
+          - img [ref=e108]
+        - generic [ref=e111]:
+          - img [ref=e112]
+          - generic [ref=e114]: Modo Escuro
+          - generic [ref=e115]:
+            - switch [ref=e266]
+            - checkbox [ref=e117]
+        - button [ref=e267] [cursor=pointer]:
+          - img [ref=e119]
+          - generic [ref=e122]: Sair
+      - generic [ref=e125]:
+        - generic [ref=e127]:
+          - generic [ref=e128]:
+            - generic [ref=e129]:
+              - button [ref=e268] [cursor=pointer]:
+                - img [ref=e132]
+              - generic [ref=e135]:
+                - text: CPU
+                - generic [ref=e136]: 3.1%
+                - generic [ref=e137]: 1 cores — Carregar 0.01, 0.08, 0.08
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - application
+            - generic [ref=e138]:
+              - button [ref=e269] [cursor=pointer]:
+                - img [ref=e141]
+              - generic [ref=e144]:
+                - text: Memória
+                - generic [ref=e145]: 53.9%
+                - generic [ref=e146]: 2.1 GB / 3.8 GB
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - application
+            - generic [ref=e147]:
+              - button [ref=e270] [cursor=pointer]:
+                - img [ref=e150]
+              - generic [ref=e153]:
+                - text: Disco
+                - generic [ref=e154]: 24.5%
+                - generic [ref=e155]: 11.6 GB / 47.4 GB
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - application
+            - generic [ref=e156]:
+              - button [ref=e271] [cursor=pointer]:
+                - img [ref=e159]
+              - generic [ref=e162]:
+                - text: Rede
+                - generic [ref=e163]: 0 B/s
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - application
+          - alert [ref=e164]:
+            - img [ref=e166]
+            - generic [ref=e168]:
+              - text: Monitoramento avançado está disponível apenas se você tiver uma licença.
+              - link [ref=e272] [cursor=pointer]:
+                - /url: /buy-license
+                - text: Comprar Licença
+        - generic [ref=e170]:
+          - paragraph [ref=e171]: Projetos
+          - generic [ref=e172]:
+            - button [ref=e273] [cursor=pointer]:
+              - img [ref=e175]
+              - text: Novo
+            - group [ref=e176]:
+              - button [ref=e274] [cursor=pointer]:
+                - img [ref=e179]
+                - text: Nome
+              - button [ref=e275] [cursor=pointer]:
+                - img [ref=e185]
+                - text: Tempo
+            - group [ref=e189]:
+              - button [ref=e276] [cursor=pointer]:
+                - img [ref=e192]
+                - text: Expandido
+              - button [ref=e277] [cursor=pointer]:
+                - img [ref=e196]
+                - text: Recolhido
+        - generic [ref=e197]:
+          - generic [ref=e198]:
+            - generic [ref=e199]:
+              - link [ref=e278] [cursor=pointer]:
+                - /url: /projects/n8n
+                - text: n8n
+              - link [ref=e279] [cursor=pointer]:
+                - /url: /projects/n8n
+                - img [ref=e202]
+              - link [ref=e280] [cursor=pointer]:
+                - /url: /projects/n8n/settings
+                - img [ref=e205]
+              - link [ref=e281] [cursor=pointer]:
+                - /url: /projects/n8n/create
+                - img [ref=e209]
+              - link [ref=e282] [cursor=pointer]:
+                - /url: /projects/n8n/create?tab=templates
+                - img [ref=e211]
+            - generic [ref=e213]:
+              - link [ref=e283] [cursor=pointer]:
+                - /url: /projects/n8n/app/n8n_start
+                - generic [ref=e216]:
+                  - generic [ref=e217]: n8n_start
+                  - generic [ref=e218]: app
+              - link [ref=e284] [cursor=pointer]:
+                - /url: /projects/n8n/app/n8n_webhook
+                - generic [ref=e223]:
+                  - generic [ref=e224]: n8n_webhook
+                  - generic [ref=e225]: app
+              - link [ref=e285] [cursor=pointer]:
+                - /url: /projects/n8n/app/n8n_worker
+                - generic [ref=e230]:
+                  - generic [ref=e231]: n8n_worker
+                  - generic [ref=e232]: app
+              - link [ref=e286] [cursor=pointer]:
+                - /url: /projects/n8n/postgres/postgres
+                - generic [ref=e237]:
+                  - generic [ref=e238]: postgres
+                  - generic [ref=e239]: postgres
+              - link [ref=e287] [cursor=pointer]:
+                - /url: /projects/n8n/redis/redis
+                - generic [ref=e244]:
+                  - generic [ref=e245]: redis
+                  - generic [ref=e246]: redis
+          - button [ref=e288] [cursor=pointer]: Criar Projeto
+    - region "Notifications alt+T"
+  - generic:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom"
+    - region "Notifications-bottom-right"
+  - dialog "Criar Projeto" [ref=e292]:
+    - heading "Criar Projeto" [level=2] [ref=e294]
+    - generic [ref=e296]:
+      - group [ref=e297]:
+        - generic [ref=e298]: Nome
+        - textbox "Nome" [active] [ref=e300]
+      - button "Criar" [ref=e302] [cursor=pointer]
+    - button "Close" [ref=e303] [cursor=pointer]:
+      - img
+      - generic [ref=e304]: Close

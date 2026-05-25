@@ -1,0 +1,41 @@
+- main [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "Desenvolvedores" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]: Desenvolvedores
+      - navigation [ref=e9]:
+        - generic [ref=e10]:
+          - link "API Docs" [ref=e11] [cursor=pointer]:
+            - /url: https://developers.mercadolivre.com.br/pt_br/api-docs-pt-br
+          - button "Wallison" [ref=e14] [cursor=pointer]:
+            - text: Wallison
+            - img [ref=e15]
+  - generic [ref=e18]:
+    - generic [ref=e19]:
+      - heading "Minhas aplicações" [level=1] [ref=e20]
+      - link [ref=e21] [cursor=pointer]:
+        - /url: https://developers.mercadolivre.com.br/pt_br/crie-uma-aplicacao-no-mercado-livre
+        - generic [ref=e22]:
+          - img [ref=e24]
+          - generic [ref=e28]: Clique no ícone para acessar a documentação
+    - link "Criar nova aplicação" [ref=e29] [cursor=pointer]:
+      - /url: /devcenter/create-app
+      - generic [ref=e30]:
+        - img [ref=e31]
+        - generic [ref=e33]: Criar nova aplicação
+  - generic [ref=e34]:
+    - img [ref=e35]
+    - paragraph [ref=e42]:
+      - text: Não há nenhuma aplicação criada.
+      - text: Comece agora!
+  - contentinfo [ref=e43]:
+    - generic [ref=e45]: Copyright © 2026 Ebazar.com.br LTDA.
+    - generic [ref=e46]:
+      - list:
+        - listitem [ref=e47]:
+          - link "Termos e condições" [ref=e48] [cursor=pointer]:
+            - /url: http://developers.mercadolivre.com.br/pt_br/termos-e-condicoes
+        - listitem [ref=e49]:
+          - link "Como cuidamos da sua privacidade" [ref=e50] [cursor=pointer]:
+            - /url: http://www.mercadolivre.com.br/privacidade

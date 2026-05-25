@@ -1,0 +1,16 @@
+[     110ms] [WARNING] Failed to decode downloaded font: http://72.61.131.74:3000/assets/files/inter-latin-wght-normal.woff2 @ http://72.61.131.74:3000/projects/agrovisao/app/waha/environment:0
+[     110ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008821359 @ http://72.61.131.74:3000/projects/agrovisao/app/waha/environment:0
+[     299ms] [WARNING] Failed to decode downloaded font: http://72.61.131.74:3000/assets/files/inter-latin-wght-normal.woff2 @ http://72.61.131.74:3000/projects/agrovisao/app/waha/environment:0
+[     299ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008821359 @ http://72.61.131.74:3000/projects/agrovisao/app/waha/environment:0
+[     586ms] [WARNING] Failed to decode downloaded font: http://72.61.131.74:3000/assets/files/inter-latin-wght-normal.woff2 @ http://72.61.131.74:3000/assets/lib-Brr9PYy-.js:7
+[     586ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008821359 @ http://72.61.131.74:3000/assets/lib-Brr9PYy-.js:7
+[     625ms] [WARNING] Failed to decode downloaded font: http://72.61.131.74:3000/assets/files/inter-latin-wght-normal.woff2 @ http://72.61.131.74:3000/projects/agrovisao/app/waha/environment:0
+[     625ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008821359 @ http://72.61.131.74:3000/projects/agrovisao/app/waha/environment:0
+[     674ms] [WARNING] Failed to decode downloaded font: http://72.61.131.74:3000/assets/files/inter-latin-wght-normal.woff2 @ http://72.61.131.74:3000/assets/editor.api2-BkABxevM.js:47
+[     674ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008821359 @ http://72.61.131.74:3000/assets/editor.api2-BkABxevM.js:47
+[     840ms] [WARNING] Failed to decode downloaded font: http://72.61.131.74:3000/assets/files/inter-latin-wght-normal.woff2 @ http://72.61.131.74:3000/assets/editor.api2-BkABxevM.js:7
+[     840ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008821359 @ http://72.61.131.74:3000/assets/editor.api2-BkABxevM.js:7
+[  135680ms] [WARNING] Failed to decode downloaded font: http://72.61.131.74:3000/assets/files/inter-latin-wght-normal.woff2 @ http://72.61.131.74:3000/assets/lib-Brr9PYy-.js:0
+[  135680ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008821359 @ http://72.61.131.74:3000/assets/lib-Brr9PYy-.js:0
+[  160455ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://72.61.131.74:3000/api/trpc/services.app.updateEnv:0
+[  174899ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://72.61.131.74:3000/api/trpc/services.app.updateEnv:0

@@ -1,0 +1,2 @@
+[     754ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://evolution.wexia.com.br/manager/login:0
+[   26748ms] [WARNING] Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}. @ https://evolution.wexia.com.br/assets/index-CFAZX6IV.js:332

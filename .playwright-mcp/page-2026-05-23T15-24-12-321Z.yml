@@ -1,0 +1,70 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "← Voltar" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e7]:
+          - heading "🛒 Cotação de Insumos" [level=1] [ref=e8]
+          - paragraph [ref=e9]: Preços reais do Mercado Livre
+      - generic [ref=e10]:
+        - 'textbox "Ex: glifosato, ureia, sementes soja..." [ref=e11]': Glifosato
+        - button "Buscar" [ref=e12] [cursor=pointer]
+      - generic [ref=e13]:
+        - button "Tudo" [ref=e14] [cursor=pointer]
+        - button "Defensivos" [ref=e15] [cursor=pointer]
+        - button "Fertilizantes" [ref=e16] [cursor=pointer]
+        - button "Sementes" [ref=e17] [cursor=pointer]
+        - button "Equipamentos" [ref=e18] [cursor=pointer]
+    - main [ref=e19]:
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - paragraph [ref=e47]:
+            - text: 66 resultados para
+            - generic [ref=e48]: “Glifosato”
+          - paragraph [ref=e49]: Mercado Livre
+        - generic [ref=e50]:
+          - link "Glifosato Quimiagri 1l Glifosato Quimiagri 1l R$ 27,83 Novo 3 vendedores →" [ref=e51] [cursor=pointer]:
+            - /url: https://www.mercadolivre.com.br/p/MLB42165232
+            - img "Glifosato Quimiagri 1l" [ref=e53]
+            - generic [ref=e54]:
+              - paragraph [ref=e55]: Glifosato Quimiagri 1l
+              - paragraph [ref=e56]: R$ 27,83
+              - generic [ref=e58]: Novo
+              - paragraph [ref=e59]: 3 vendedores
+            - generic [ref=e60]: →
+          - link "Herbicida Kelldrin Akb Glifosato 48% Herbicida Kelldrin Akb Glifosato 48% R$ 43,90 Novo 3 vendedores →" [ref=e61] [cursor=pointer]:
+            - /url: https://www.mercadolivre.com.br/p/MLB29645056
+            - img "Herbicida Kelldrin Akb Glifosato 48%" [ref=e63]
+            - generic [ref=e64]:
+              - paragraph [ref=e65]: Herbicida Kelldrin Akb Glifosato 48%
+              - paragraph [ref=e66]: R$ 43,90
+              - generic [ref=e68]: Novo
+              - paragraph [ref=e69]: 3 vendedores
+            - generic [ref=e70]: →
+          - link "Citromax Herbicida Glifosato 10% 100ml Citromax Herbicida Glifosato 10% 100ml R$ 15,15 Novo 6 vendedores →" [ref=e71] [cursor=pointer]:
+            - /url: https://www.mercadolivre.com.br/p/MLB35007352
+            - img "Citromax Herbicida Glifosato 10% 100ml" [ref=e73]
+            - generic [ref=e74]:
+              - paragraph [ref=e75]: Citromax Herbicida Glifosato 10% 100ml
+              - paragraph [ref=e76]: R$ 15,15
+              - generic [ref=e78]: Novo
+              - paragraph [ref=e79]: 6 vendedores
+            - generic [ref=e80]: →
+          - link "Herbicida Glifomato Glifosato Insetimax 3 Ml Herbicida Glifomato Glifosato Insetimax 3 Ml R$ 14,88 Novo 6 vendedores →" [ref=e81] [cursor=pointer]:
+            - /url: https://www.mercadolivre.com.br/p/MLB38777556
+            - img "Herbicida Glifomato Glifosato Insetimax 3 Ml" [ref=e83]
+            - generic [ref=e84]:
+              - paragraph [ref=e85]: Herbicida Glifomato Glifosato Insetimax 3 Ml
+              - paragraph [ref=e86]: R$ 14,88
+              - generic [ref=e88]: Novo
+              - paragraph [ref=e89]: 6 vendedores
+            - generic [ref=e90]: →
+        - paragraph [ref=e92]: Preços consultados em tempo real no Mercado Livre. Valores podem variar. Para grandes volumes, negocie diretamente com distribuidores locais.
+        - link "🤖 Dúvidas técnicas sobre esse produto? Pergunte ao Agente AgroVisão →" [ref=e93] [cursor=pointer]:
+          - /url: /chat
+          - generic [ref=e94]: 🤖
+          - generic [ref=e95]:
+            - paragraph [ref=e96]: Dúvidas técnicas sobre esse produto?
+            - paragraph [ref=e97]: Pergunte ao Agente AgroVisão →
+  - alert [ref=e44]

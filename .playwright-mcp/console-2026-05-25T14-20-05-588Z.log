@@ -1,0 +1,16 @@
+[     494ms] [WARNING] Failed to decode downloaded font: http://72.61.131.74:3000/assets/files/inter-latin-wght-normal.woff2 @ http://72.61.131.74:3000/projects/agrovisao/app/waha:0
+[     494ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008821359 @ http://72.61.131.74:3000/projects/agrovisao/app/waha:0
+[     496ms] [WARNING] Failed to decode downloaded font: http://72.61.131.74:3000/assets/files/inter-latin-wght-normal.woff2 @ http://72.61.131.74:3000/projects/agrovisao/app/waha:0
+[     496ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008821359 @ http://72.61.131.74:3000/projects/agrovisao/app/waha:0
+[     832ms] [WARNING] Failed to decode downloaded font: http://72.61.131.74:3000/assets/files/inter-latin-wght-normal.woff2 @ http://72.61.131.74:3000/projects/agrovisao/app/waha:0
+[     832ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008821359 @ http://72.61.131.74:3000/projects/agrovisao/app/waha:0
+[     922ms] [WARNING] Failed to decode downloaded font: http://72.61.131.74:3000/assets/files/inter-latin-wght-normal.woff2 @ http://72.61.131.74:3000/projects/agrovisao/app/waha:0
+[     922ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008821359 @ http://72.61.131.74:3000/projects/agrovisao/app/waha:0
+[    1239ms] [WARNING] Failed to decode downloaded font: http://72.61.131.74:3000/assets/files/inter-latin-wght-normal.woff2 @ http://72.61.131.74:3000/projects/agrovisao/app/waha:0
+[    1239ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008821359 @ http://72.61.131.74:3000/projects/agrovisao/app/waha:0
+[    1267ms] [WARNING] Failed to decode downloaded font: http://72.61.131.74:3000/assets/files/inter-latin-wght-normal.woff2 @ http://72.61.131.74:3000/projects/agrovisao/app/waha:0
+[    1267ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008821359 @ http://72.61.131.74:3000/projects/agrovisao/app/waha:0
+[    6370ms] [WARNING] Failed to decode downloaded font: http://72.61.131.74:3000/assets/files/inter-latin-wght-normal.woff2 @ http://72.61.131.74:3000/assets/lib-Brr9PYy-.js:0
+[    6370ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008821359 @ http://72.61.131.74:3000/assets/lib-Brr9PYy-.js:0
+[    6444ms] [WARNING] Failed to decode downloaded font: http://72.61.131.74:3000/assets/files/inter-latin-wght-normal.woff2 @ http://72.61.131.74:3000/assets/lib-Brr9PYy-.js:7
+[    6444ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008821359 @ http://72.61.131.74:3000/assets/lib-Brr9PYy-.js:7

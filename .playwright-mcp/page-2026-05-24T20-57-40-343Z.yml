@@ -1,0 +1,250 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - link "Home" [ref=e522] [cursor=pointer]:
+              - /url: /
+              - img "Home" [ref=e523]
+            - generic [ref=e10]:
+              - generic [ref=e11]: Easypanel
+              - generic [ref=e12]:
+                - generic [ref=e13]: v2.30.1
+                - button [ref=e14] [cursor=pointer]:
+                  - img [ref=e15]
+                - combobox [ref=e20]:
+                  - option "BR"
+                  - option "DA"
+                  - option "DE"
+                  - option "EN"
+                  - option "ES"
+                  - option "FA"
+                  - option "FR"
+                  - option "HI"
+                  - option "ID"
+                  - option "IT"
+                  - option "JA"
+                  - option "KA"
+                  - option "NL"
+                  - option "PL"
+                  - option "PT" [selected]
+                  - option "RO"
+                  - option "RU"
+                  - option "TH"
+                  - option "TR"
+                  - option "VI"
+                  - option "CN"
+          - generic [ref=e21]:
+            - link "Painel" [ref=e524] [cursor=pointer]:
+              - /url: /
+              - img [ref=e309]
+              - generic [ref=e312]: Painel
+            - link "Ações" [ref=e525] [cursor=pointer]:
+              - /url: /actions
+              - img [ref=e314]
+              - generic [ref=e316]: Ações
+            - link "Monitorar" [ref=e526] [cursor=pointer]:
+              - /url: /monitor
+              - img [ref=e318]
+              - generic [ref=e320]: Monitorar
+            - link "Domínios" [ref=e527] [cursor=pointer]:
+              - /url: /domains
+              - img [ref=e322]
+              - generic [ref=e325]: Domínios
+            - link "Configurações" [ref=e528] [cursor=pointer]:
+              - /url: /settings
+              - img [ref=e327]
+              - generic [ref=e330]: Configurações
+          - generic [ref=e46]:
+            - link "Documentação" [ref=e529] [cursor=pointer]:
+              - /url: https://easypanel.io/docs
+              - img [ref=e332]
+              - generic [ref=e334]: Documentação
+              - img [ref=e336]
+            - link "Discord Discord" [ref=e530] [cursor=pointer]:
+              - /url: https://discord.gg/9bcDSXcZQ7
+              - img "Discord" [ref=e531]
+              - generic [ref=e343]: Discord
+              - img [ref=e345]
+            - link "Feedback" [ref=e532] [cursor=pointer]:
+              - /url: https://my.easypanel.io/feedback
+              - img [ref=e350]
+              - generic [ref=e352]: Feedback
+              - img [ref=e354]
+            - link "Histórico de Alterações" [ref=e533] [cursor=pointer]:
+              - /url: https://my.easypanel.io/changelog
+              - img [ref=e359]
+              - generic [ref=e362]: Histórico de Alterações
+              - img [ref=e364]
+          - link "Comprar Licença" [ref=e534] [cursor=pointer]:
+            - /url: /buy-license
+            - img [ref=e369]
+            - generic [ref=e373]: Comprar Licença
+          - button "Busca Rápida ⌘ K" [ref=e535] [cursor=pointer]:
+            - img [ref=e375]
+            - generic [ref=e378]: Busca Rápida
+            - generic [ref=e380]: ⌘ K
+          - generic [ref=e98]:
+            - heading "Command Palette" [level=2] [ref=e536]
+            - paragraph [ref=e100]: Search for a command to run...
+          - button "72.61.131.74" [ref=e537] [cursor=pointer]:
+            - img [ref=e383]
+            - generic [ref=e387]: 72.61.131.74
+            - img [ref=e389]
+          - generic [ref=e392]:
+            - img [ref=e393]
+            - generic [ref=e395]: Modo Escuro
+            - generic [ref=e396]:
+              - switch "Modo Escuro" [ref=e538]
+              - checkbox [ref=e398]
+          - button "Sair" [ref=e539] [cursor=pointer]:
+            - img [ref=e400]
+            - generic [ref=e403]: Sair
+        - generic [ref=e405]:
+          - generic [ref=e406]:
+            - button "agrovisao" [ref=e540] [cursor=pointer]:
+              - img [ref=e409]
+              - generic [ref=e412]: agrovisao
+              - img [ref=e413]
+            - generic [ref=e416]:
+              - generic [ref=e417]: Serviços
+              - link [ref=e418] [cursor=pointer]:
+                - /url: /projects/agrovisao/create
+                - img [ref=e419]
+            - link "waha" [ref=e542] [cursor=pointer]:
+              - /url: /projects/agrovisao/app/waha
+              - generic [ref=e545]: waha
+          - generic [ref=e608]:
+            - link "Visão Geral" [ref=e609] [cursor=pointer]:
+              - /url: /projects/agrovisao/app/waha
+              - generic [ref=e611]:
+                - img [ref=e613]
+                - text: Visão Geral
+            - link "Fonte" [ref=e614] [cursor=pointer]:
+              - /url: /projects/agrovisao/app/waha/source
+              - generic [ref=e616]:
+                - img [ref=e618]
+                - text: Fonte
+            - link "Implantações" [ref=e621] [cursor=pointer]:
+              - /url: /projects/agrovisao/app/waha/deployments
+              - generic [ref=e623]:
+                - img [ref=e625]
+                - text: Implantações
+            - link "Ambiente" [ref=e630] [cursor=pointer]:
+              - /url: /projects/agrovisao/app/waha/environment
+              - generic [ref=e632]:
+                - img [ref=e634]
+                - text: Ambiente
+            - link "Domínios" [ref=e637] [cursor=pointer]:
+              - /url: /projects/agrovisao/app/waha/domains
+              - generic [ref=e639]:
+                - img [ref=e641]
+                - text: Domínios
+            - link "Redirecionamentos" [ref=e644] [cursor=pointer]:
+              - /url: /projects/agrovisao/app/waha/redirects
+              - generic [ref=e646]:
+                - img [ref=e648]
+                - text: Redirecionamentos
+            - link "Scripts" [ref=e650] [cursor=pointer]:
+              - /url: /projects/agrovisao/app/waha/scripts
+              - generic [ref=e652]:
+                - img [ref=e654]
+                - text: Scripts
+            - link "Segurança" [ref=e657] [cursor=pointer]:
+              - /url: /projects/agrovisao/app/waha/security
+              - generic [ref=e659]:
+                - img [ref=e661]
+                - text: Segurança
+            - link "Recursos" [ref=e665] [cursor=pointer]:
+              - /url: /projects/agrovisao/app/waha/resources
+              - generic [ref=e667]:
+                - img [ref=e669]
+                - text: Recursos
+            - link "Manutenção" [ref=e672] [cursor=pointer]:
+              - /url: /projects/agrovisao/app/waha/maintenance
+              - generic [ref=e674]:
+                - img [ref=e676]
+                - text: Manutenção
+            - link "Armazenamento" [ref=e678] [cursor=pointer]:
+              - /url: /projects/agrovisao/app/waha/storage
+              - generic [ref=e680]:
+                - img [ref=e682]
+                - text: Armazenamento
+            - link "Avançado" [ref=e684] [cursor=pointer]:
+              - /url: /projects/agrovisao/app/waha/advanced
+              - generic [ref=e686]:
+                - img [ref=e688]
+                - text: Avançado
+      - generic [ref=e124]:
+        - generic [ref=e424]:
+          - generic [ref=e425]:
+            - link "agrovisao" [ref=e546] [cursor=pointer]:
+              - /url: /projects/agrovisao
+            - generic [ref=e547]: /
+            - generic [ref=e548]: waha
+            - generic [ref=e549]: app
+            - button "Rename" [ref=e551] [cursor=pointer]:
+              - img [ref=e552]
+          - generic [ref=e427]:
+            - link "Serviço" [ref=e555] [cursor=pointer]:
+              - /url: /projects/agrovisao/create
+              - img [ref=e430]
+              - text: Serviço
+            - link "Modelos" [ref=e556] [cursor=pointer]:
+              - /url: /projects/agrovisao/create?tab=templates
+              - img [ref=e433]
+              - text: Modelos
+            - link "Project Settings" [ref=e557] [cursor=pointer]:
+              - /url: /projects/agrovisao/settings
+              - img [ref=e437]
+        - generic [ref=e691]:
+          - generic [ref=e775]:
+            - generic [ref=e776]:
+              - button "Implantar" [ref=e777] [cursor=pointer]
+              - button "Stop" [ref=e778] [cursor=pointer]:
+                - img [ref=e779]
+              - button "restart" [ref=e781] [cursor=pointer]:
+                - img [ref=e782]
+              - button "Logs" [ref=e786] [cursor=pointer]:
+                - img [ref=e787]
+              - button "Console" [ref=e790] [cursor=pointer]:
+                - img [ref=e791]
+              - link "Open" [ref=e794] [cursor=pointer]:
+                - /url: https://agrovisao-waha.ogmpaf.easypanel.host/
+                - img [ref=e795]
+              - button "Notes" [ref=e799] [cursor=pointer]:
+                - img [ref=e800]
+              - button "restart" [ref=e803] [cursor=pointer]:
+                - img [ref=e804]
+              - button "Destroy" [ref=e808] [cursor=pointer]:
+                - img [ref=e809]
+            - generic [ref=e812]:
+              - generic [ref=e813]:
+                - text: CPU
+                - generic [ref=e814]: 0.0%
+              - generic [ref=e815]: Memória 0.0 B
+              - generic [ref=e816]:
+                - text: I/O da Rede
+                - generic [ref=e817]: 0.0 B / 0.0 B
+          - generic [ref=e818]:
+            - paragraph [ref=e820]: Variáveis de Ambiente
+            - generic [ref=e823]:
+              - group [ref=e824]:
+                - code [ref=e828]:
+                  - generic [ref=e829]:
+                    - textbox "Editor content" [active]
+                    - textbox [ref=e830]
+                    - generic [ref=e835]: "1"
+              - button "Salvar" [ref=e842] [cursor=pointer]
+    - region "Notifications alt+T"
+  - generic:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom"
+    - region "Notifications-bottom-right"
+  - generic [ref=e843]:
+    - alert
+    - alert

@@ -1,0 +1,9 @@
+[     549ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://developers.mercadolivre.com.br/devcenter/8799538225525662/edit:0
+[     549ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-uri'. @ https://developers.mercadolivre.com.br/devcenter/8799538225525662/edit:0
+[     549ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-to'. @ https://developers.mercadolivre.com.br/devcenter/8799538225525662/edit:0
+[    1158ms] [INFO] This document requires 'TrustedScriptURL' assignment. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://http2.mlstatic.com/frontend-assets/developers-site-cms/notFound.46e0eba6.js:1
+[   11594ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-uri'. @ https://developers.mercadolivre.com.br/pt_br:0
+[   11594ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-to'. @ https://developers.mercadolivre.com.br/pt_br:0
+[   11658ms] [INFO] This document requires 'TrustedScriptURL' assignment. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://http2.mlstatic.com/frontend-assets/developers-site-cms/index.2d9426e1.js:1
+[   11659ms] [INFO] This document requires 'TrustedScriptURL' assignment. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://http2.mlstatic.com/frontend-assets/developers-site-cms/index.2d9426e1.js:1
+[   11870ms] [WARNING] [Meta Pixel] - You are sending a non-standard event '/pt_br/[object Object]'. The preferred way to send these events is using trackCustom. See 'https://developers.facebook.com/docs/ads-for-websites/pixel-events/#events' for more information. @ https://connect.facebook.net/en_US/fbevents.js:181

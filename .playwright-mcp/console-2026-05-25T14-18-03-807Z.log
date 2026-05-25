@@ -1,0 +1,12 @@
+[     138ms] [WARNING] Failed to decode downloaded font: http://72.61.131.74:3000/assets/files/inter-latin-wght-normal.woff2 @ http://72.61.131.74:3000/projects/agrovisao/app/waha/deployments:0
+[     138ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008821359 @ http://72.61.131.74:3000/projects/agrovisao/app/waha/deployments:0
+[     354ms] [WARNING] Failed to decode downloaded font: http://72.61.131.74:3000/assets/files/inter-latin-wght-normal.woff2 @ http://72.61.131.74:3000/projects/agrovisao/app/waha/deployments:0
+[     354ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008821359 @ http://72.61.131.74:3000/projects/agrovisao/app/waha/deployments:0
+[     648ms] [WARNING] Failed to decode downloaded font: http://72.61.131.74:3000/assets/files/inter-latin-wght-normal.woff2 @ http://72.61.131.74:3000/projects/agrovisao/app/waha/deployments:0
+[     648ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008821359 @ http://72.61.131.74:3000/projects/agrovisao/app/waha/deployments:0
+[     697ms] [WARNING] Failed to decode downloaded font: http://72.61.131.74:3000/assets/files/inter-latin-wght-normal.woff2 @ http://72.61.131.74:3000/projects/agrovisao/app/waha/deployments:0
+[     697ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008821359 @ http://72.61.131.74:3000/projects/agrovisao/app/waha/deployments:0
+[     721ms] [WARNING] Failed to decode downloaded font: http://72.61.131.74:3000/assets/files/inter-latin-wght-normal.woff2 @ http://72.61.131.74:3000/projects/agrovisao/app/waha/deployments:0
+[     721ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008821359 @ http://72.61.131.74:3000/projects/agrovisao/app/waha/deployments:0
+[     789ms] [WARNING] Failed to decode downloaded font: http://72.61.131.74:3000/assets/files/inter-latin-wght-normal.woff2 @ http://72.61.131.74:3000/projects/agrovisao/app/waha/deployments:0
+[     790ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008821359 @ http://72.61.131.74:3000/projects/agrovisao/app/waha/deployments:0

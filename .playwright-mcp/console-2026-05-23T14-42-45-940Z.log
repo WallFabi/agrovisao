@@ -1,0 +1,17 @@
+[     922ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-uri'. @ https://developers.mercadolivre.com.br/devcenter:0
+[     922ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-to'. @ https://developers.mercadolivre.com.br/devcenter:0
+[  182887ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-uri'. @ https://developers.mercadolivre.com.br/devcenter/edit-app/8799538225525662:0
+[  182887ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-to'. @ https://developers.mercadolivre.com.br/devcenter/edit-app/8799538225525662:0
+[  182982ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) @ https://developers.mercadolivre.com.br/devcenter/edit-app/8799538225525662:0
+[  183604ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-uri'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:227
+[  183604ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-to'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:227
+[  183976ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-uri'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:188
+[  183976ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-to'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:188
+[  183977ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-uri'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:188
+[  183977ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-to'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:188
+[  184481ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-uri'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:220
+[  184481ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-to'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:220
+[  184499ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-uri'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:469
+[  184499ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-to'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:469
+[  184500ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-uri'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:469
+[  184500ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'report-to'. @ https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__pt_br.js:469

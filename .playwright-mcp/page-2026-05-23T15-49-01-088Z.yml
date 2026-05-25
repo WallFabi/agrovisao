@@ -1,0 +1,179 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e8]: Online • 12:48
+        - generic [ref=e9]: v1.0 MVP
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - generic [ref=e12]: 🌿
+          - heading "AgroVisão" [level=1] [ref=e13]
+        - paragraph [ref=e14]: Assistente inteligente para o produtor rural
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - paragraph [ref=e61]: Gurupi
+            - generic [ref=e62]:
+              - generic [ref=e63]: 30°C
+              - generic [ref=e64]: Parcialmente nublado
+            - paragraph [ref=e65]: Sensação 32°C · Vento 19 km/h
+          - generic [ref=e66]: 🌤
+        - generic [ref=e67]:
+          - generic [ref=e68]:
+            - generic [ref=e69]: Hoje
+            - generic [ref=e70]: ☁️
+            - generic [ref=e71]: 31°
+            - generic [ref=e72]: 0%
+          - generic [ref=e73]:
+            - generic [ref=e74]: Dom
+            - generic [ref=e75]: 🌤
+            - generic [ref=e76]: 30°
+            - generic [ref=e77]: 2%
+          - generic [ref=e78]:
+            - generic [ref=e79]: Seg
+            - generic [ref=e80]: 🌤
+            - generic [ref=e81]: 31°
+            - generic [ref=e82]: 4%
+          - generic [ref=e83]:
+            - generic [ref=e84]: Ter
+            - generic [ref=e85]: 🌦
+            - generic [ref=e86]: 32°
+            - generic [ref=e87]: 4%
+          - generic [ref=e88]:
+            - generic [ref=e89]: Qua
+            - generic [ref=e90]: ☀️
+            - generic [ref=e91]: 33°
+            - generic [ref=e92]: 0%
+          - generic [ref=e93]:
+            - generic [ref=e94]: Qui
+            - generic [ref=e95]: ☀️
+            - generic [ref=e96]: 34°
+            - generic [ref=e97]: 0%
+          - generic [ref=e98]:
+            - generic [ref=e99]: Sex
+            - generic [ref=e100]: ☀️
+            - generic [ref=e101]: 34°
+            - generic [ref=e102]: 0%
+      - generic [ref=e15]:
+        - paragraph [ref=e16]: 💡 Dica técnica
+        - paragraph [ref=e17]: "Pecuária: suplementação a pasto reduz custo de arroba em até 18%."
+    - generic [ref=e103]:
+      - paragraph [ref=e104]: Notícias do Agro
+      - generic [ref=e105]:
+        - link "📡 Canal Rural há 18min Edital do Tecon Santos 10 precisa sair até agosto para leilão ocorrer em 2026, diz ministro" [ref=e106] [cursor=pointer]:
+          - /url: https://www.canalrural.com.br/politica/edital-do-tecon-santos-10-precisa-sair-ate-agosto-para-leilao-ocorrer-em-2026-diz-ministro/
+          - generic [ref=e107]:
+            - generic [ref=e108]: 📡
+            - generic [ref=e109]: Canal Rural
+            - generic [ref=e110]: há 18min
+          - paragraph [ref=e111]: Edital do Tecon Santos 10 precisa sair até agosto para leilão ocorrer em 2026, diz ministro
+        - link "📡 Canal Rural há 19min Aprosoja Brasil realiza congresso para discutir geopolítica e mercado de grãos em Brasília" [ref=e112] [cursor=pointer]:
+          - /url: https://www.canalrural.com.br/agricultura/projeto-soja-brasil/aprosoja-brasil-realiza-congresso-para-discutir-geopolitica-e-mercado-de-graos-em-brasilia/
+          - generic [ref=e113]:
+            - generic [ref=e114]: 📡
+            - generic [ref=e115]: Canal Rural
+            - generic [ref=e116]: há 19min
+          - paragraph [ref=e117]: Aprosoja Brasil realiza congresso para discutir geopolítica e mercado de grãos em Brasília
+        - link "📡 Canal Rural há 1h Ministro prevê mais 15 leilões de portos até o fim de 2026" [ref=e118] [cursor=pointer]:
+          - /url: https://www.canalrural.com.br/politica/ministro-preve-mais-15-leiloes-de-portos-ate-o-fim-de-2026/
+          - generic [ref=e119]:
+            - generic [ref=e120]: 📡
+            - generic [ref=e121]: Canal Rural
+            - generic [ref=e122]: há 1h
+          - paragraph [ref=e123]: Ministro prevê mais 15 leilões de portos até o fim de 2026
+        - link "📡 Canal Rural há 1h Resolução endurece regras para desmate legal no Brasil; saiba mais" [ref=e124] [cursor=pointer]:
+          - /url: https://www.canalrural.com.br/pecuaria/resolucao-endurece-regras-para-desmate-legal-no-brasil-saiba-mais/
+          - generic [ref=e125]:
+            - generic [ref=e126]: 📡
+            - generic [ref=e127]: Canal Rural
+            - generic [ref=e128]: há 1h
+          - paragraph [ref=e129]: Resolução endurece regras para desmate legal no Brasil; saiba mais
+        - link "📡 Canal Rural há 2h Colheita do café avança lentamente e atinge 9% da safra no Brasil, aponta consultoria" [ref=e130] [cursor=pointer]:
+          - /url: https://www.canalrural.com.br/agricultura/colheita-do-cafe-avanca-lentamente-e-atinge-9-da-safra-aponta-consultoria/
+          - generic [ref=e131]:
+            - generic [ref=e132]: 📡
+            - generic [ref=e133]: Canal Rural
+            - generic [ref=e134]: há 2h
+          - paragraph [ref=e135]: Colheita do café avança lentamente e atinge 9% da safra no Brasil, aponta consultoria
+        - link "📡 Canal Rural há 3h BNDES diz que recicla carteira de ações para ampliar investimentos em inovação e biocombustíveis" [ref=e136] [cursor=pointer]:
+          - /url: https://www.canalrural.com.br/economia/bndes-diz-que-recicla-carteira-de-acoes-para-ampliar-investimentos-em-inovacao-e-biocombustiveis/
+          - generic [ref=e137]:
+            - generic [ref=e138]: 📡
+            - generic [ref=e139]: Canal Rural
+            - generic [ref=e140]: há 3h
+          - paragraph [ref=e141]: BNDES diz que recicla carteira de ações para ampliar investimentos em inovação e biocombustíveis
+        - link "📡 Canal Rural há 3h Caprishow 2026 reúne homologação do Berganês e avanços na inspeção em Pernambuco" [ref=e142] [cursor=pointer]:
+          - /url: https://www.canalrural.com.br/pecuaria/caprishow-2026-reune-homologacao-do-berganes-e-avancos-na-inspecao-em-pernambuco/
+          - generic [ref=e143]:
+            - generic [ref=e144]: 📡
+            - generic [ref=e145]: Canal Rural
+            - generic [ref=e146]: há 3h
+          - paragraph [ref=e147]: Caprishow 2026 reúne homologação do Berganês e avanços na inspeção em Pernambuco
+        - link "📡 Canal Rural há 3h Uva gigante japonesa viraliza nas redes sociais e ganha versão brasileira no interior de São Paulo" [ref=e148] [cursor=pointer]:
+          - /url: https://www.canalrural.com.br/curiosidades/uva-gigante-japonesa-viraliza-nas-redes-sociais-e-ganha-versao-brasileira-no-interior-de-sao-paulo/
+          - generic [ref=e149]:
+            - generic [ref=e150]: 📡
+            - generic [ref=e151]: Canal Rural
+            - generic [ref=e152]: há 3h
+          - paragraph [ref=e153]: Uva gigante japonesa viraliza nas redes sociais e ganha versão brasileira no interior de São Paulo
+        - link "📡 Canal Rural há 15h Relatório bimestral mantém meta fiscal e amplia bloqueio no Orçamento de 2026" [ref=e154] [cursor=pointer]:
+          - /url: https://www.canalrural.com.br/economia/relatorio-bimestral-mantem-meta-fiscal-e-amplia-bloqueio-no-orcamento-de-2026/
+          - generic [ref=e155]:
+            - generic [ref=e156]: 📡
+            - generic [ref=e157]: Canal Rural
+            - generic [ref=e158]: há 15h
+          - paragraph [ref=e159]: Relatório bimestral mantém meta fiscal e amplia bloqueio no Orçamento de 2026
+        - link "📡 Canal Rural há 15h Agências reguladoras reagem a bloqueio de R$ 22,1 bilhões no orçamento" [ref=e160] [cursor=pointer]:
+          - /url: https://www.canalrural.com.br/economia/agencias-reguladoras-reagem-a-bloqueio-de-r-221-bilhoes-no-orcamento/
+          - generic [ref=e161]:
+            - generic [ref=e162]: 📡
+            - generic [ref=e163]: Canal Rural
+            - generic [ref=e164]: há 15h
+          - paragraph [ref=e165]: Agências reguladoras reagem a bloqueio de R$ 22,1 bilhões no orçamento
+    - main [ref=e18]:
+      - paragraph [ref=e19]: O que você precisa hoje?
+      - link "🤖Técnico → Agente IA Tire dúvidas agronômicas Chat com IA baseada em dados da Embrapa, MAPA e fontes oficiais" [ref=e20] [cursor=pointer]:
+        - /url: /chat
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - generic [ref=e23]: 🤖Técnico
+            - generic [ref=e24]: →
+          - heading "Agente IA" [level=2] [ref=e25]
+          - paragraph [ref=e26]: Tire dúvidas agronômicas
+          - paragraph [ref=e27]: Chat com IA baseada em dados da Embrapa, MAPA e fontes oficiais
+      - link "🛒Ao vivo → Cotação de Insumos Pesquisa no Mercado Livre Compare preços de defensivos, fertilizantes e equipamentos" [ref=e28] [cursor=pointer]:
+        - /url: /precos
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - generic [ref=e31]: 🛒Ao vivo
+            - generic [ref=e32]: →
+          - heading "Cotação de Insumos" [level=2] [ref=e33]
+          - paragraph [ref=e34]: Pesquisa no Mercado Livre
+          - paragraph [ref=e35]: Compare preços de defensivos, fertilizantes e equipamentos
+      - generic [ref=e36]:
+        - paragraph [ref=e37]: Perguntas rápidas
+        - generic [ref=e38]:
+          - link "🍃 Ferrugem na soja" [ref=e39] [cursor=pointer]:
+            - /url: /chat?q=Ferrugem%20na%20soja
+            - generic [ref=e40]: 🍃
+            - generic [ref=e41]: Ferrugem na soja
+          - link "🌽 Dose de ureia no milho" [ref=e42] [cursor=pointer]:
+            - /url: /chat?q=Dose%20de%20ureia%20no%20milho
+            - generic [ref=e43]: 🌽
+            - generic [ref=e44]: Dose de ureia no milho
+          - link "🐄 Suplemento bovino" [ref=e45] [cursor=pointer]:
+            - /url: /chat?q=Suplemento%20bovino
+            - generic [ref=e46]: 🐄
+            - generic [ref=e47]: Suplemento bovino
+          - link "🐛 Controle de pragas" [ref=e48] [cursor=pointer]:
+            - /url: /chat?q=Controle%20de%20pragas
+            - generic [ref=e49]: 🐛
+            - generic [ref=e50]: Controle de pragas
+      - generic [ref=e51]:
+        - generic [ref=e52]: 📚
+        - generic [ref=e53]:
+          - paragraph [ref=e54]: Base de dados técnica
+          - paragraph [ref=e55]: Baseado em publicações da Embrapa, MAPA e AGROFIT
+    - contentinfo [ref=e56]:
+      - paragraph [ref=e57]: AgroVisão © 2026 • Informações técnicas para o campo
+  - alert [ref=e166]

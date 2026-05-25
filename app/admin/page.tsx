@@ -1,4 +1,4 @@
-import { supabase } from '@/lib/supabase'
+import { createClient } from '@supabase/supabase-js'
 import { notFound } from 'next/navigation'
 
 export const dynamic = 'force-dynamic'
@@ -28,6 +28,11 @@ export default async function AdminPage({
   searchParams: { key?: string }
 }) {
   if (searchParams.key !== ADMIN_KEY) return notFound()
+
+  const supabase = createClient(
+    process.env.SUPABASE_URL!,
+    process.env.SUPABASE_SERVICE_ROLE_KEY!
+  )
 
   const { data, error } = await supabase
     .from('contacts')

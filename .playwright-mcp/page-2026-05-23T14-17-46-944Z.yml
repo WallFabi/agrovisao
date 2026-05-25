@@ -1,0 +1,37 @@
+- main [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "Desenvolvedores" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]: Desenvolvedores
+      - navigation [ref=e9]:
+        - generic [ref=e10]:
+          - link "API Docs" [ref=e11] [cursor=pointer]:
+            - /url: https://developers.mercadolivre.com.br/pt_br/api-docs-pt-br
+          - button "Wallison" [ref=e14] [cursor=pointer]:
+            - text: Wallison
+            - img [ref=e15]
+  - generic [ref=e18]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - img "user icon" [ref=e22]
+        - img "code icon" [ref=e23]
+      - paragraph [ref=e24]: Olá, Wallison
+      - paragraph [ref=e25]: Deseja vincular sua conta do Mercado Livre para trabalhar com nossa API?
+      - generic [ref=e26]:
+        - button "Vincular" [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]: Vincular
+        - link "Vincular outra conta" [ref=e29] [cursor=pointer]:
+          - /url: https://www.mercadolibre.com/jms/mla/lgz/logout?go=http%3A%2F%2Fapplications.mercadolibre.com.ar
+          - generic [ref=e30]: Vincular outra conta
+    - paragraph [ref=e31]: Ao vincular sua conta você pertencerá a comunidade de desenvolvedores do Mercado Livre, que são responsáveis por criar ferramentas e soluções de comércio eletrônico.
+  - contentinfo [ref=e32]:
+    - generic [ref=e34]: Copyright © 2026 Ebazar.com.br LTDA.
+    - generic [ref=e35]:
+      - list:
+        - listitem [ref=e36]:
+          - link "Termos e condições" [ref=e37] [cursor=pointer]:
+            - /url: http://developers.mercadolivre.com.br/pt_br/termos-e-condicoes
+        - listitem [ref=e38]:
+          - link "Como cuidamos da sua privacidade" [ref=e39] [cursor=pointer]:
+            - /url: http://www.mercadolivre.com.br/privacidade

@@ -1,0 +1,142 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - link "Home" [ref=e306] [cursor=pointer]:
+              - /url: /
+              - img "Home" [ref=e307]
+            - generic [ref=e10]:
+              - generic [ref=e11]: Easypanel
+              - generic [ref=e12]:
+                - generic [ref=e13]: v2.30.1
+                - button [ref=e14] [cursor=pointer]:
+                  - img [ref=e15]
+                - combobox [ref=e20]:
+                  - option "BR"
+                  - option "DA"
+                  - option "DE"
+                  - option "EN"
+                  - option "ES"
+                  - option "FA"
+                  - option "FR"
+                  - option "HI"
+                  - option "ID"
+                  - option "IT"
+                  - option "JA"
+                  - option "KA"
+                  - option "NL"
+                  - option "PL"
+                  - option "PT" [selected]
+                  - option "RO"
+                  - option "RU"
+                  - option "TH"
+                  - option "TR"
+                  - option "VI"
+                  - option "CN"
+          - generic [ref=e21]:
+            - link "Painel" [ref=e308] [cursor=pointer]:
+              - /url: /
+              - img [ref=e309]
+              - generic [ref=e312]: Painel
+            - link "Ações" [ref=e313] [cursor=pointer]:
+              - /url: /actions
+              - img [ref=e314]
+              - generic [ref=e316]: Ações
+            - link "Monitorar" [ref=e317] [cursor=pointer]:
+              - /url: /monitor
+              - img [ref=e318]
+              - generic [ref=e320]: Monitorar
+            - link "Domínios" [ref=e321] [cursor=pointer]:
+              - /url: /domains
+              - img [ref=e322]
+              - generic [ref=e325]: Domínios
+            - link "Configurações" [ref=e326] [cursor=pointer]:
+              - /url: /settings
+              - img [ref=e327]
+              - generic [ref=e330]: Configurações
+          - generic [ref=e46]:
+            - link "Documentação" [ref=e331] [cursor=pointer]:
+              - /url: https://easypanel.io/docs
+              - img [ref=e332]
+              - generic [ref=e334]: Documentação
+              - img [ref=e336]
+            - link "Discord Discord" [ref=e340] [cursor=pointer]:
+              - /url: https://discord.gg/9bcDSXcZQ7
+              - img "Discord" [ref=e341]
+              - generic [ref=e343]: Discord
+              - img [ref=e345]
+            - link "Feedback" [ref=e349] [cursor=pointer]:
+              - /url: https://my.easypanel.io/feedback
+              - img [ref=e350]
+              - generic [ref=e352]: Feedback
+              - img [ref=e354]
+            - link "Histórico de Alterações" [ref=e358] [cursor=pointer]:
+              - /url: https://my.easypanel.io/changelog
+              - img [ref=e359]
+              - generic [ref=e362]: Histórico de Alterações
+              - img [ref=e364]
+          - link "Comprar Licença" [ref=e368] [cursor=pointer]:
+            - /url: /buy-license
+            - img [ref=e369]
+            - generic [ref=e373]: Comprar Licença
+          - button "Busca Rápida ⌘ K" [ref=e374] [cursor=pointer]:
+            - img [ref=e375]
+            - generic [ref=e378]: Busca Rápida
+            - generic [ref=e380]: ⌘ K
+          - generic [ref=e98]:
+            - heading "Command Palette" [level=2] [ref=e381]
+            - paragraph [ref=e100]: Search for a command to run...
+          - button "72.61.131.74" [ref=e382] [cursor=pointer]:
+            - img [ref=e383]
+            - generic [ref=e387]: 72.61.131.74
+            - img [ref=e389]
+          - generic [ref=e392]:
+            - img [ref=e393]
+            - generic [ref=e395]: Modo Escuro
+            - generic [ref=e396]:
+              - switch "Modo Escuro" [ref=e397]
+              - checkbox [ref=e398]
+          - button "Sair" [ref=e399] [cursor=pointer]:
+            - img [ref=e400]
+            - generic [ref=e403]: Sair
+        - generic [ref=e406]:
+          - button "agrovisao" [ref=e408] [cursor=pointer]:
+            - img [ref=e409]
+            - generic [ref=e412]: agrovisao
+            - img [ref=e413]
+          - generic [ref=e416]:
+            - generic [ref=e417]: Serviços
+            - link [ref=e418] [cursor=pointer]:
+              - /url: /projects/agrovisao/create
+              - img [ref=e419]
+      - generic [ref=e124]:
+        - generic [ref=e424]:
+          - link "agrovisao" [ref=e426] [cursor=pointer]:
+            - /url: /projects/agrovisao
+          - generic [ref=e427]:
+            - link "Serviço" [ref=e428] [cursor=pointer]:
+              - /url: /projects/agrovisao/create
+              - img [ref=e430]
+              - text: Serviço
+            - link "Modelos" [ref=e431] [cursor=pointer]:
+              - /url: /projects/agrovisao/create?tab=templates
+              - img [ref=e433]
+              - text: Modelos
+            - link "Project Settings" [ref=e436] [cursor=pointer]:
+              - /url: /projects/agrovisao/settings
+              - img [ref=e437]
+        - generic [ref=e441]:
+          - img [ref=e442]:
+            - img [ref=e443]
+          - paragraph [ref=e445]: Seu projeto está vazio
+          - paragraph [ref=e446]: Comece criando alguns serviços
+    - region "Notifications alt+T"
+  - generic:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom"
+    - region "Notifications-bottom-right"

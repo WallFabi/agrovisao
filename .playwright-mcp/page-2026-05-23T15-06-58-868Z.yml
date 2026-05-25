@@ -1,0 +1,24 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "← Voltar" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e7]:
+          - heading "🛒 Cotação de Insumos" [level=1] [ref=e8]
+          - paragraph [ref=e9]: Preços reais do Mercado Livre
+      - generic [ref=e10]:
+        - 'textbox "Ex: glifosato, ureia, sementes soja..." [ref=e11]': Ureia fertilizante
+        - button "..." [disabled] [ref=e45]
+      - generic [ref=e13]:
+        - button "Tudo" [ref=e14] [cursor=pointer]
+        - button "Defensivos" [ref=e15] [cursor=pointer]
+        - button "Fertilizantes" [ref=e16] [cursor=pointer]
+        - button "Sementes" [ref=e17] [cursor=pointer]
+        - button "Equipamentos" [ref=e18] [cursor=pointer]
+    - main [ref=e19]:
+      - paragraph [ref=e48]:
+        - text: Buscando preços de
+        - strong [ref=e49]: Ureia fertilizante
+        - text: ...
+  - alert [ref=e44]

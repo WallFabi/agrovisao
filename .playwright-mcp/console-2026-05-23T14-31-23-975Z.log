@@ -1,0 +1,5 @@
+[    9726ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:38559
+[    9845ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/favicon.ico:0
+[   14249ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3001/api/produtos?q=Glifosato&categoria=geral&limite=12:0
+[  176136ms] [ERROR] Access to fetch at 'https://api.mercadolibre.com/sites/MLB/search?q=Glifosato&limit=3' from origin 'http://localhost:3001' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: It does not have HTTP ok status. @ http://localhost:3001/precos:0
+[  176137ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://api.mercadolibre.com/sites/MLB/search?q=Glifosato&limit=3:0
