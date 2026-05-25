@@ -89,7 +89,7 @@ export async function POST(request: Request) {
     if (!payload) return Response.json({ ok: true })
     if (payload.fromMe) return Response.json({ ok: true })
     if (payload.from?.endsWith('@g.us')) return Response.json({ ok: true }) // ignore groups
-    if (!['text', 'chat'].includes(payload.type) || !payload.body?.trim()) return Response.json({ ok: true })
+    if (!payload.body?.trim()) return Response.json({ ok: true })
 
     const chatId: string = payload.from
     const userText: string = payload.body.trim()
