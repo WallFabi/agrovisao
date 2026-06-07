@@ -1,5 +1,6 @@
 import { createClient } from '@supabase/supabase-js'
 import { notFound } from 'next/navigation'
+import { unstable_noStore as noStore } from 'next/cache'
 
 export const dynamic = 'force-dynamic'
 
@@ -19,6 +20,7 @@ function fmt(iso: string) {
 }
 
 function clean(phone: string) {
+  if (phone.endsWith('@lid')) return `LID:${phone.replace('@lid', '').slice(-8)}`
   return phone.replace('@c.us', '').replace('@s.whatsapp.net', '')
 }
 
@@ -27,6 +29,7 @@ export default async function AdminPage({
 }: {
   searchParams: { key?: string }
 }) {
+  noStore()
   if (searchParams.key !== ADMIN_KEY) return notFound()
 
   const supabase = createClient(
