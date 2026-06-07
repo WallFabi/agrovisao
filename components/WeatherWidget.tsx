@@ -6,13 +6,13 @@ interface CurrentWeather {
   temperature: number
   apparent_temperature: number
   windspeed: number
-  precipitation_probability: number
-  weathercode: number
+  weatherId: number
+  description: string
 }
 
 interface DayForecast {
   date: string
-  weathercode: number
+  weatherId: number
   temp_max: number
   rain_probability: number
 }
@@ -23,30 +23,16 @@ interface WeatherData {
   daily: DayForecast[]
 }
 
-function weatherIcon(code: number): string {
-  if (code === 0) return '☀️'
-  if (code <= 2) return '🌤'
-  if (code === 3) return '☁️'
-  if (code <= 48) return '🌫'
-  if (code <= 55) return '🌦'
-  if (code <= 67) return '🌧'
-  if (code <= 77) return '❄️'
-  if (code <= 82) return '🌧'
-  if (code <= 99) return '⛈'
+function weatherIcon(id: number): string {
+  if (id === 800) return '☀️'
+  if (id === 801) return '🌤'
+  if (id <= 804) return '☁️'
+  if (id >= 200 && id < 300) return '⛈'
+  if (id >= 300 && id < 400) return '🌦'
+  if (id >= 500 && id < 600) return '🌧'
+  if (id >= 600 && id < 700) return '❄️'
+  if (id >= 700 && id < 800) return '🌫'
   return '🌡'
-}
-
-function weatherDesc(code: number): string {
-  if (code === 0) return 'Céu limpo'
-  if (code <= 2) return 'Parcialmente nublado'
-  if (code === 3) return 'Nublado'
-  if (code <= 48) return 'Neblina'
-  if (code <= 55) return 'Chuvisco'
-  if (code <= 67) return 'Chuva'
-  if (code <= 77) return 'Neve'
-  if (code <= 82) return 'Pancadas de chuva'
-  if (code <= 99) return 'Tempestade'
-  return ''
 }
 
 const DAYS = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb']
@@ -56,62 +42,28 @@ export default function WeatherWidget() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    if (!navigator.geolocation) { setLoading(false); return }
+    async function fetchWeather(lat?: number, lon?: number) {
+      try {
+        const params = lat != null ? `?lat=${lat}&lon=${lon}` : ''
+        const res = await fetch(`/api/weather${params}`)
+        if (!res.ok) throw new Error('weather error')
+        const data = await res.json()
+        setWeather(data)
+      } catch {
+        // silently fail
+      } finally {
+        setLoading(false)
+      }
+    }
+
+    if (!navigator.geolocation) {
+      fetchWeather()
+      return
+    }
 
     navigator.geolocation.getCurrentPosition(
-      async ({ coords }) => {
-        try {
-          const { latitude: lat, longitude: lon } = coords
-
-          const [weatherRes, geoRes] = await Promise.all([
-            fetch(
-              `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}` +
-              `&current=temperature_2m,apparent_temperature,precipitation_probability,windspeed_10m,weathercode` +
-              `&daily=weathercode,temperature_2m_max,precipitation_probability_max` +
-              `&forecast_days=7&timezone=America%2FSao_Paulo`
-            ),
-            fetch(
-              `https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lon}&zoom=10&accept-language=pt-BR`,
-              { headers: { 'User-Agent': 'AgroVisao/1.0' } }
-            ),
-          ])
-
-          const [wData, gData] = await Promise.all([weatherRes.json(), geoRes.json()])
-
-          const city =
-            gData.address?.city ||
-            gData.address?.town ||
-            gData.address?.village ||
-            gData.address?.municipality ||
-            'Sua região'
-
-          const daily: DayForecast[] = (wData.daily?.time ?? []).map(
-            (date: string, i: number) => ({
-              date,
-              weathercode: wData.daily.weathercode[i],
-              temp_max: Math.round(wData.daily.temperature_2m_max[i]),
-              rain_probability: wData.daily.precipitation_probability_max[i] ?? 0,
-            })
-          )
-
-          setWeather({
-            city,
-            current: {
-              temperature: Math.round(wData.current.temperature_2m),
-              apparent_temperature: Math.round(wData.current.apparent_temperature),
-              windspeed: Math.round(wData.current.windspeed_10m),
-              precipitation_probability: wData.current.precipitation_probability ?? 0,
-              weathercode: wData.current.weathercode,
-            },
-            daily,
-          })
-        } catch {
-          // silently fail
-        } finally {
-          setLoading(false)
-        }
-      },
-      () => setLoading(false),
+      ({ coords }) => fetchWeather(coords.latitude, coords.longitude),
+      () => fetchWeather(), // fallback to Gurupi-TO (server default)
       { timeout: 8000 }
     )
   }, [])
@@ -134,17 +86,16 @@ export default function WeatherWidget() {
           <p className="text-agro-200 text-xs font-medium">{city}</p>
           <div className="flex items-baseline gap-2 mt-0.5">
             <span className="text-2xl font-bold text-white">{current.temperature}°C</span>
-            <span className="text-agro-300 text-xs">{weatherDesc(current.weathercode)}</span>
+            <span className="text-agro-300 text-xs capitalize">{current.description}</span>
           </div>
           <p className="text-agro-300 text-xs mt-0.5">
             Sensação {current.apparent_temperature}°C · Vento {current.windspeed} km/h
-            {current.precipitation_probability > 0 && ` · 🌧 ${current.precipitation_probability}%`}
           </p>
         </div>
-        <span className="text-4xl">{weatherIcon(current.weathercode)}</span>
+        <span className="text-4xl">{weatherIcon(current.weatherId)}</span>
       </div>
 
-      {/* 7-day forecast */}
+      {/* 5-day forecast */}
       <div className="border-t border-white/10 flex overflow-x-auto scrollbar-hide">
         {daily.map((day, i) => {
           const d = new Date(day.date + 'T12:00:00')
@@ -155,7 +106,7 @@ export default function WeatherWidget() {
               className="flex-shrink-0 flex flex-col items-center gap-0.5 px-3 py-2 min-w-[52px]"
             >
               <span className="text-agro-300 text-xs">{label}</span>
-              <span className="text-lg">{weatherIcon(day.weathercode)}</span>
+              <span className="text-lg">{weatherIcon(day.weatherId)}</span>
               <span className="text-white text-xs font-medium">{day.temp_max}°</span>
               <span className="text-agro-300 text-xs">{day.rain_probability}%</span>
             </div>
